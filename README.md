@@ -1,10 +1,16 @@
-# Mattermost Chat Layout Extension
+# 💬 BubbleChatLayout for Mattermost
+
+> Transform your Mattermost into a modern chat interface with beautiful message bubbles
 
 A Chrome extension that enhances Mattermost's chat interface by:
-- Displaying your messages on the right side
+- Displaying your messages on the right side with modern bubble design
 - Displaying other users' messages on the left side
-- Adding modern chat bubble styling with shadows
-- Providing hover effects and smooth transitions
+- Adding elegant shadows and smooth animations
+- Providing intuitive hover effects and transitions
+
+## About
+
+BubbleChatLayout for Mattermost brings a fresh, modern look to your Mattermost conversations. It transforms the traditional chat layout into a more engaging and visually appealing interface, similar to popular messaging apps.
 
 ## Installation
 

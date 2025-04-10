@@ -58,7 +58,6 @@
 
 /* Style message time */
 .post__time {
-    opacity: 0.7 !important;
     font-size: 12px !important;
     color: var(--center-channel-color) !important;
 }

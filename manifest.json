@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Mattermost Chat Layout",
+  "version": "1.0",
+  "description": "Customizes Mattermost chat layout to show your messages on the right",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "*://*.bsscommerce.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://*.bsscommerce.com/*"],
+      "css": ["styles.css"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "icons": {
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+} 

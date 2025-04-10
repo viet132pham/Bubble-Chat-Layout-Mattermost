@@ -1,0 +1,106 @@
+/* Target current user's messages */
+.post.current--user {
+    margin-left: auto !important;
+    margin-right: 12px !important;
+    max-width: 70% !important;
+    width: max-content !important;
+    background-color: var(--button-bg) !important;
+    color: var(--button-color) !important;
+    border-radius: 16px 4px 16px 16px !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15) !important;
+}
+
+/* Target other user's messages */
+.post:not(.current--user) {
+    margin-right: auto !important;
+    margin-left: 24px !important;
+    max-width: 70% !important;
+    width: max-content !important;
+    background-color: var(--mention-bg) !important;
+    color: var(--mention-color) !important;
+    border-radius: 4px 16px 16px 16px !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15) !important;
+}
+
+/* Style the message container */
+.post {
+    display: flex !important;
+    flex-direction: column !important;
+    padding: 12px 16px !important;
+    margin-bottom: 8px !important;
+    transition: all 0.2s ease !important;
+}
+
+/* Style message content */
+.post-row__padding.top {
+    margin-top: 20px !important;
+}
+
+.post__content {
+    word-wrap: break-word !important;
+    word-break: break-word !important;
+    width: auto !important;
+}
+
+.post-message__text {
+    font-size: 14px !important;
+    line-height: 1.5 !important;
+    color: var(--center-channel-color) !important;
+}
+
+/* Style message header (username and timestamp) */
+.post__header {
+    margin-bottom: 4px !important;
+    display: flex !important;
+    align-items: center !important;
+    gap: 8px !important;
+}
+
+/* Style message time */
+.post__time {
+    opacity: 0.7 !important;
+    font-size: 12px !important;
+    color: var(--center-channel-color) !important;
+}
+
+.col.post-menu {
+    max-width: fit-content !important;
+}
+
+.post:not(.current--user) .post-menu {
+    right: auto !important;
+}
+
+/* Style avatar */
+.post__img {
+    margin-right: 8px !important;
+}
+
+.Avatar {
+    border-radius: 50% !important;
+    border: 2px solid transparent !important;
+    transition: border-color 0.2s ease !important;
+}
+
+.current--user .Avatar {
+    border-color: var(--button-bg) !important;
+}
+
+/* Style username */
+.user-popover {
+    font-weight: 600 !important;
+    font-size: 13px !important;
+    color: var(--mention-color) !important;
+    text-decoration: none !important;
+}
+
+/* Hover effects */
+.post:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2) !important;
+}
+
+/* Style emoji */
+.emoticon {
+    vertical-align: middle !important;
+    margin: 0 2px !important;
+} 
